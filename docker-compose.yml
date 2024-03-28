@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5000"  # Change the host port to 5001
+    # Add any ports or volumes needed for the infrastructure container
