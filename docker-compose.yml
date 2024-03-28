@@ -6,5 +6,4 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "5001:5000"  # Change the host port to 5001
-    # Add any ports or volumes needed for the infrastructure container
+      - "5001:5000"  
